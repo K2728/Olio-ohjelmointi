@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="demo10t01_dispatcher_timer1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:demo10t01_dispatcher_timer1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+        Width="800"
+    Height="600">
+
+    <Grid x:Name="MyGrid">
+        <Canvas
+            x:Name="MyCanvas"
+            Width="800"
+            Background="Green"
+            Height="600"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            />
+    </Grid>
+
+</Page>
